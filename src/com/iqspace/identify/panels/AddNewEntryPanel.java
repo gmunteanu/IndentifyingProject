@@ -32,28 +32,36 @@ public class AddNewEntryPanel extends JPanel {
 		gbc_panel_2.gridy = 0;
 		add(panel_2, gbc_panel_2);
 		GridBagLayout gbl_panel_2 = new GridBagLayout();
-		gbl_panel_2.columnWidths = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-		gbl_panel_2.rowHeights = new int[]{0, 0, 0, 0};
-		gbl_panel_2.columnWeights = new double[]{0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, Double.MIN_VALUE};
-		gbl_panel_2.rowWeights = new double[]{0.0, 0.0, 0.0, Double.MIN_VALUE};
+		gbl_panel_2.columnWidths = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+		gbl_panel_2.rowHeights = new int[]{0, 0, 0, 0, 0};
+		gbl_panel_2.columnWeights = new double[]{0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 5.0};
+		gbl_panel_2.rowWeights = new double[]{0.0, 0.0, 1.0, 1.0, 1.0};
 		panel_2.setLayout(gbl_panel_2);
+		
+		JLabel lblNewLabel_2 = new JLabel("Rotariu Ioan    CNP 1880001289764");
+		GridBagConstraints gbc_lblNewLabel_2 = new GridBagConstraints();
+		gbc_lblNewLabel_2.gridwidth = 5;
+		gbc_lblNewLabel_2.insets = new Insets(0, 0, 5, 5);
+		gbc_lblNewLabel_2.gridx = 1;
+		gbc_lblNewLabel_2.gridy = 1;
+		panel_2.add(lblNewLabel_2, gbc_lblNewLabel_2);
 		
 		JButton btnNewButton = new JButton("<html>M3<br>SupSt</html>");
 		btnNewButton.setHorizontalAlignment(SwingConstants.LEFT);
 		GridBagConstraints gbc_btnNewButton = new GridBagConstraints();
 		gbc_btnNewButton.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton.gridx = 1;
-		gbc_btnNewButton.gridy = 1;
+		gbc_btnNewButton.gridy = 2;
 		panel_2.add(btnNewButton, gbc_btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("<html>M2<br>SupSt</html>");
 		GridBagConstraints gbc_btnNewButton_1 = new GridBagConstraints();
 		gbc_btnNewButton_1.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_1.gridx = 2;
-		gbc_btnNewButton_1.gridy = 1;
+		gbc_btnNewButton_1.gridy = 2;
 		panel_2.add(btnNewButton_1, gbc_btnNewButton_1);
 		
-		JButton btnNewButton_13 = new JButton("<html>M2<br>SupDr<br>&nbsp;</html>");
+		JButton btnNewButton_13 = new JButton("<html>M2<br>SpDr<br>&nbsp;</html>");
 		btnNewButton_13.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
@@ -61,98 +69,98 @@ public class AddNewEntryPanel extends JPanel {
 		GridBagConstraints gbc_btnNewButton_13 = new GridBagConstraints();
 		gbc_btnNewButton_13.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_13.gridx = 15;
-		gbc_btnNewButton_13.gridy = 1;
+		gbc_btnNewButton_13.gridy = 2;
 		panel_2.add(btnNewButton_13, gbc_btnNewButton_13);
 		
-		JButton btnNewButton_15 = new JButton("<html>M3<br>SupDr</html>");
+		JButton btnNewButton_15 = new JButton("<html>M3<br>SpDr</html>");
 		GridBagConstraints gbc_btnNewButton_15 = new GridBagConstraints();
 		gbc_btnNewButton_15.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_15.gridx = 16;
-		gbc_btnNewButton_15.gridy = 1;
+		gbc_btnNewButton_15.gridy = 2;
 		panel_2.add(btnNewButton_15, gbc_btnNewButton_15);
 		
 		JButton btnNewButton_2 = new JButton("<html>M1<br>SupSt</html>");
 		GridBagConstraints gbc_btnNewButton_2 = new GridBagConstraints();
 		gbc_btnNewButton_2.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_2.gridx = 3;
-		gbc_btnNewButton_2.gridy = 2;
+		gbc_btnNewButton_2.gridy = 3;
 		panel_2.add(btnNewButton_2, gbc_btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("<html>P2<br>SupSt</html>");
 		GridBagConstraints gbc_btnNewButton_3 = new GridBagConstraints();
 		gbc_btnNewButton_3.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_3.gridx = 4;
-		gbc_btnNewButton_3.gridy = 2;
+		gbc_btnNewButton_3.gridy = 3;
 		panel_2.add(btnNewButton_3, gbc_btnNewButton_3);
 		
 		JButton btnNewButton_4 = new JButton("<html>P1<br>SupSt</html>");
 		GridBagConstraints gbc_btnNewButton_4 = new GridBagConstraints();
 		gbc_btnNewButton_4.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_4.gridx = 5;
-		gbc_btnNewButton_4.gridy = 2;
+		gbc_btnNewButton_4.gridy = 3;
 		panel_2.add(btnNewButton_4, gbc_btnNewButton_4);
 		
 		JButton btnNewButton_5 = new JButton("<html>C<br>SupSt</html>");
 		GridBagConstraints gbc_btnNewButton_5 = new GridBagConstraints();
 		gbc_btnNewButton_5.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_5.gridx = 6;
-		gbc_btnNewButton_5.gridy = 2;
+		gbc_btnNewButton_5.gridy = 3;
 		panel_2.add(btnNewButton_5, gbc_btnNewButton_5);
 		
-		JButton btnNewButton_10 = new JButton("<html>C<br>SupDr<br>Umplutura</html>");
+		JButton btnNewButton_10 = new JButton("<html>C<br>SupDr<br>Umplut</html>");
 		GridBagConstraints gbc_btnNewButton_10 = new GridBagConstraints();
 		gbc_btnNewButton_10.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_10.gridx = 11;
-		gbc_btnNewButton_10.gridy = 2;
+		gbc_btnNewButton_10.gridy = 3;
 		panel_2.add(btnNewButton_10, gbc_btnNewButton_10);
 		
-		JButton btnNewButton_11 = new JButton("<html>P1<br>SupDr<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>");
+		JButton btnNewButton_11 = new JButton("<html>P1<br>SpDr<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</html>");
 		GridBagConstraints gbc_btnNewButton_11 = new GridBagConstraints();
 		gbc_btnNewButton_11.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_11.gridx = 12;
-		gbc_btnNewButton_11.gridy = 2;
+		gbc_btnNewButton_11.gridy = 3;
 		panel_2.add(btnNewButton_11, gbc_btnNewButton_11);
 		
-		JButton btnNewButton_12 = new JButton("<html>P2<br>SupDr<br>Trat. Ondo.</html>");
+		JButton btnNewButton_12 = new JButton("<html>P2<br>SupDr<br>T. Ondo</html>");
 		GridBagConstraints gbc_btnNewButton_12 = new GridBagConstraints();
 		gbc_btnNewButton_12.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_12.gridx = 13;
-		gbc_btnNewButton_12.gridy = 2;
+		gbc_btnNewButton_12.gridy = 3;
 		panel_2.add(btnNewButton_12, gbc_btnNewButton_12);
 		
-		JButton btnNewButton_14 = new JButton("<html>M1<br>SupDr<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>");
+		JButton btnNewButton_14 = new JButton("<html>M1<br>SpDr<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>");
 		GridBagConstraints gbc_btnNewButton_14 = new GridBagConstraints();
 		gbc_btnNewButton_14.insets = new Insets(0, 0, 5, 5);
 		gbc_btnNewButton_14.gridx = 14;
-		gbc_btnNewButton_14.gridy = 2;
+		gbc_btnNewButton_14.gridy = 3;
 		panel_2.add(btnNewButton_14, gbc_btnNewButton_14);
 		
-		JButton btnNewButton_6 = new JButton("<html>IL<br>SupSt</html>");
+		JButton btnNewButton_6 = new JButton("<html>IL<br>SupSt<br>Lipsa</html>");
 		GridBagConstraints gbc_btnNewButton_6 = new GridBagConstraints();
-		gbc_btnNewButton_6.insets = new Insets(0, 0, 5, 5);
+		gbc_btnNewButton_6.insets = new Insets(0, 0, 0, 5);
 		gbc_btnNewButton_6.gridx = 7;
-		gbc_btnNewButton_6.gridy = 3;
+		gbc_btnNewButton_6.gridy = 4;
 		panel_2.add(btnNewButton_6, gbc_btnNewButton_6);
 		
-		JButton btnNewButton_7 = new JButton("<html>IC<br>SupSt</html>");
+		JButton btnNewButton_7 = new JButton("<html>IC<br>SupSt<br>Lipsa</html>");
 		GridBagConstraints gbc_btnNewButton_7 = new GridBagConstraints();
-		gbc_btnNewButton_7.insets = new Insets(0, 0, 5, 5);
+		gbc_btnNewButton_7.insets = new Insets(0, 0, 0, 5);
 		gbc_btnNewButton_7.gridx = 8;
-		gbc_btnNewButton_7.gridy = 3;
+		gbc_btnNewButton_7.gridy = 4;
 		panel_2.add(btnNewButton_7, gbc_btnNewButton_7);
 		
-		JButton btnNewButton_8 = new JButton("<html>IC<br>SupDr</html>");
+		JButton btnNewButton_8 = new JButton("<html>IC<br>SupDr<br>Lipsa</html>");
 		GridBagConstraints gbc_btnNewButton_8 = new GridBagConstraints();
-		gbc_btnNewButton_8.insets = new Insets(0, 0, 5, 5);
+		gbc_btnNewButton_8.insets = new Insets(0, 0, 0, 5);
 		gbc_btnNewButton_8.gridx = 9;
-		gbc_btnNewButton_8.gridy = 3;
+		gbc_btnNewButton_8.gridy = 4;
 		panel_2.add(btnNewButton_8, gbc_btnNewButton_8);
 		
-		JButton btnNewButton_9 = new JButton("<html>IL<br>SupDr</html>");
+		JButton btnNewButton_9 = new JButton("<html>IL<br>SupDr<br>Lipsa</html>");
 		GridBagConstraints gbc_btnNewButton_9 = new GridBagConstraints();
-		gbc_btnNewButton_9.insets = new Insets(0, 0, 5, 5);
+		gbc_btnNewButton_9.insets = new Insets(0, 0, 0, 5);
 		gbc_btnNewButton_9.gridx = 10;
-		gbc_btnNewButton_9.gridy = 3;
+		gbc_btnNewButton_9.gridy = 4;
 		panel_2.add(btnNewButton_9, gbc_btnNewButton_9);
 		
 		JPanel panel_1 = new JPanel();
@@ -178,23 +186,16 @@ public class AddNewEntryPanel extends JPanel {
 		panel_1.add(panel_4, gbc_panel_4);
 		GridBagLayout gbl_panel_4 = new GridBagLayout();
 		gbl_panel_4.columnWidths = new int[]{0, 0, 0, 0};
-		gbl_panel_4.rowHeights = new int[]{0, 0, 0};
-		gbl_panel_4.columnWeights = new double[]{0.0, 1.0, 10.0, Double.MIN_VALUE};
-		gbl_panel_4.rowWeights = new double[]{0.0, 1.0, Double.MIN_VALUE};
+		gbl_panel_4.rowHeights = new int[]{0, 0};
+		gbl_panel_4.columnWeights = new double[]{0.0, 0.0, 10.0, Double.MIN_VALUE};
+		gbl_panel_4.rowWeights = new double[]{1.0, Double.MIN_VALUE};
 		panel_4.setLayout(gbl_panel_4);
-		
-		JLabel lblNewLabel_2 = new JLabel("  ");
-		GridBagConstraints gbc_lblNewLabel_2 = new GridBagConstraints();
-		gbc_lblNewLabel_2.insets = new Insets(0, 0, 0, 5);
-		gbc_lblNewLabel_2.gridx = 1;
-		gbc_lblNewLabel_2.gridy = 1;
-		panel_4.add(lblNewLabel_2, gbc_lblNewLabel_2);
 		
 		JScrollPane scrollPane = new JScrollPane();
 		GridBagConstraints gbc_scrollPane = new GridBagConstraints();
 		gbc_scrollPane.fill = GridBagConstraints.BOTH;
 		gbc_scrollPane.gridx = 2;
-		gbc_scrollPane.gridy = 1;
+		gbc_scrollPane.gridy = 0;
 		panel_4.add(scrollPane, gbc_scrollPane);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
@@ -218,7 +219,7 @@ public class AddNewEntryPanel extends JPanel {
 		JLabel lblNewLabel = new JLabel("<html>Dinte selectat: <br>Molar 3 Superior St\u00E2nga</html>");
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		GridBagConstraints gbc_lblNewLabel = new GridBagConstraints();
-		gbc_lblNewLabel.insets = new Insets(0, 0, 5, 0);
+		gbc_lblNewLabel.insets = new Insets(0, 0, 5, 20);
 		gbc_lblNewLabel.gridx = 1;
 		gbc_lblNewLabel.gridy = 1;
 		panel_3.add(lblNewLabel, gbc_lblNewLabel);
@@ -226,6 +227,7 @@ public class AddNewEntryPanel extends JPanel {
 		JComboBox comboBox = new JComboBox();
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"   - ", "Virgin", "Lips\u0103", "Implant", "Tratament endodontic", "Umplutur\u0103", "Anomalie dentar\u0103", "Impact", "R\u0103d\u0103cin\u0103 rezidual\u0103", "Pod Pontic", "Defect", "Coroan\u0103", "Neinteligibil"}));
 		GridBagConstraints gbc_comboBox = new GridBagConstraints();
+		gbc_comboBox.insets = new Insets(0, 0, 0, 20);
 		gbc_comboBox.fill = GridBagConstraints.HORIZONTAL;
 		gbc_comboBox.gridx = 1;
 		gbc_comboBox.gridy = 2;
@@ -238,10 +240,10 @@ public class AddNewEntryPanel extends JPanel {
 		gbc_panel.gridy = 2;
 		add(panel, gbc_panel);
 		GridBagLayout gbl_panel = new GridBagLayout();
-		gbl_panel.columnWidths = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-		gbl_panel.rowHeights = new int[]{0, 0, 0, 0, 0};
-		gbl_panel.columnWeights = new double[]{0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, Double.MIN_VALUE};
-		gbl_panel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+		gbl_panel.columnWidths = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+		gbl_panel.rowHeights = new int[]{0, 0, 0, 0};
+		gbl_panel.columnWeights = new double[]{0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 5.0};
+		gbl_panel.rowWeights = new double[]{1.0, 1.0, 1.0, Double.MIN_VALUE};
 		panel.setLayout(gbl_panel);
 		
 		JButton btnNewButton_16 = new JButton("<html>M3<br>InfSt<br>Lipsa</html>");
